@@ -1,50 +1,45 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Alura MIDI</title>
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap" rel="stylesheet">
-
-    <link rel="icon" type="image/png" href="images/bateria.png">
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/estilos.css">
-
+    <title>Meus objetivos do ano</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-    <h1>Alura Midi</h1>
-
-    <section class="teclado">
-        <button class="tecla tecla_pom">paysan</button>
-        <button class="tecla tecla_clap">arbrar.</button>
-        <button class="tecla tecla_tim">bugati</button>
-
-        <button class="tecla tecla_puff">papelão</button>
-        <button class="tecla tecla_splash">demais</button>
-        <button class="tecla tecla_toim">potencia</button>
-
-        <button class="tecla tecla_psh">ai ai</button>
-        <button class="tecla tecla_tic">xiii</button>
-        <button class="tecla tecla_tom">graça</button>
+    <section class="conteudo-principal">
+        <h2 class="titulo-principal">Objetivos do cleito<span>_</span></h2>
+        <div class="conteudo">
+        <div class="botoes">
+            <button class="botao ativo">Estudar ESA</button>
+            <button class="botao">Academia</button>
+            <button class="botao">Ler +Livros</button>
+            <button class="botao">Aprovação ESA-24</button>
+        </div>
+        <div class="abas-textos">
+            <div class="aba-conteudo ativo">
+                <h3 class="aba-conteudo-titulo-principal">Estudar ESA</h3>
+                <h4 class="aba-conteudo-titulo-secundario">08 de outubro</h4>
+                <div class="contador"></div>
+            </div>
+            <div class="aba-conteudo">
+                <h3 class="aba-conteudo-titulo-principal">#ODEIO LEGDAY</h3>
+                <h4 class="aba-conteudo-titulo-secundario">rotina até final do ano</h4>
+                <div class="contador"></div>
+            </div>
+            <div class="aba-conteudo">
+                <h3 class="aba-conteudo-titulo-principal">+Livros</h3>
+                <h4 class="aba-conteudo-titulo-secundario">rotina até final do ano</h4>
+                <div class="contador"></div>
+            </div>
+            <div class="aba-conteudo">
+                <h3 class="aba-conteudo-titulo-principal">Aprovação ESA</h3>
+                <h4 class="aba-conteudo-titulo-secundario">10 dezembro</h4>
+                <div class="contador"></div>
+            </div>
+        </div>
+    </div>
     </section>
-
-    <audio src="sounds/paysandu.mp3" id="som_tecla_pom"></audio>
-    <audio src="sounds/arbrarbarbrradrbrdbraba.mp3" id="som_tecla_clap"></audio>
-    <audio src="sounds/iwokeupinanewbugati.mp3" id="som_tecla_tim"></audio>
-    <audio src="sounds/que papelão.mp3" id="som_tecla_puff"></audio>
-    <audio src="sounds/demais.mp3" id="som_tecla_splash"></audio>
-    <audio src="sounds/reiclash.mp3" id="som_tecla_toim"></audio>
-    <audio src="sounds/ai ai ai.mp3" id="som_tecla_psh"></audio>
-    <audio src="sounds/xiii.mp3" id="som_tecla_tic"></audio>
-    <audio src="sounds/sem graça.mp3" id="som_tecla_tom"></audio>
-
     <script src="main.js"></script>
-
 </body>
 </html>
